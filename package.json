@@ -1,0 +1,15 @@
+{
+  "name": "conjuntos-de-diferencas",
+  "version": "1.0.0",
+  "description": "Conjuntos de diferencas planares varridos, com Singer, o teorema do multiplicador e Bruck-Ryser-Chowla como juizes, em Node puro.",
+  "type": "module",
+  "main": "src/index.js",
+  "exports": "./src/index.js",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "test": "node --test testes/*.test.js",
+    "medir": "node ferramentas/medidor.js"
+  },
+  "license": "MIT",
+  "private": false
+}
